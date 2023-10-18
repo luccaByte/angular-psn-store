@@ -1,5 +1,5 @@
 .card-container {
-    position: relative;
+    position: relative; /* fica atrás do conteúdo */
     border: 3px solid #3E4357;
     border-radius: 10px;
     width: 350px;
