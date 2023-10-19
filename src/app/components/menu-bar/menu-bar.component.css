@@ -32,6 +32,7 @@
 }
 
 .menu-bar-item > ul > li > a {
+    transition: all 0.5s;
     padding: 5px;
     text-decoration: none;
     color: rgb(7, 7, 7);
@@ -41,4 +42,13 @@
 .menu-bar-item > ul > li > a:hover {
     color: blue;
     font-weight: 500;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 5px rgba(40, 27, 216, 0.541));
+    transform: scale(1.5);
+}
+
+.menu-bar-item > ul > li > a > img {
+    transition: all 0.5s;
+    width: 30px;
+    height: 30px;
 }
